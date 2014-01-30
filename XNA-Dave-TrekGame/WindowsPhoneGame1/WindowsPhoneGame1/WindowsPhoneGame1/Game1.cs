@@ -39,13 +39,13 @@ namespace WindowsPhoneGame1
             TargetElapsedTime = TimeSpan.FromTicks(333333);
 
             // Extend battery life under lock.
-            InactiveSleepTime = TimeSpan.FromSeconds(1);
+            InactiveSleepTime = TimeSpan.FromSeconds(2);
 
 
             //Backbuffer - Dave
             graphics.PreferredBackBufferWidth = 480;
             graphics.PreferredBackBufferHeight = 800;
-            graphics.IsFullScreen = true;  
+            graphics.IsFullScreen = false;  
         
         }
 
