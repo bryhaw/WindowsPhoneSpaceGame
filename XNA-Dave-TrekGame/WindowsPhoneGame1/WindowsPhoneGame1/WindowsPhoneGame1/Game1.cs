@@ -45,7 +45,7 @@ namespace WindowsPhoneGame1
             //Backbuffer - Dave
             graphics.PreferredBackBufferWidth = 480;
             graphics.PreferredBackBufferHeight = 800;
-            graphics.IsFullScreen = true;  
+            graphics.IsFullScreen = false;  
         
         }
 
